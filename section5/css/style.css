@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    text-align: center;    /*needs to be in the the body tag it centers all inline elements*/
+    background-color:#ffffff;
+}
+
+h4{
+    display: block;
+    width: 30%;
+    margin: 0 auto 0 auto;     /* it centers all block elements*/   
+
+}
+
+.top_container{
+    position: relative;
+    padding: 5px;
+    background-color:#EAF6F6;
+
+}
+
+/* .middle_container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: hidden;
+    position:absolute;
+    top:400px;
+    left: 400px;
+    display: none;
+
+} */
+
+/* .bottum_container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: none;
+    position:absolute;   "absolute" changes the position of element depending on the borders of page or a container
+    top: 200px;
+    left:200px;
+}
+
+.ass{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position:fixed;                  "fixed" hold the elemnt in the same position while scroling down
+    top: 0;
+    display: none;
+;} */
+
+.line{
+     text-decoration: underline;              /* to style a text and under line it */
+}
+
+
+h1{
+    /* display: inline-block;            */
+    /* display: inline;              /*   display as inline = */
+       /* display: block;               display as block = can't inline elements next to each other */
+    /* display: none;              makes your elemnt diappear */
+    /* visibility: hidden;          makes you elment invisable but you still can see it borders */
+    margin: 80px auto 40px auto;
+    width: 350px;
+    font-size: 5.625rem;    /*100% = 16px = 1em    always better usuing "rem" root em   with text*/    
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    line-height: 2;                      
+}
+
+.top-cloud{
+     /* position: relative;       "relative" changes the position of element depending on it's past positon */
+    position:absolute;
+    right: 240px;
+    top :8%;
+
+
+}
+
+.bottom-cloud{
+    position:absolute;
+    bottom: 50%;
+    left: 240px;
+}
+
+.food_picture{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.sleeping_picture{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile_picture{
+    width: 15%;
+
+}
+.middle-container{
+    padding-top: 50px;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    color: #40514E;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Nerko One', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 0.5;
+
+}
+
+h3{
+    color: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;      /*i think dev is a block element*/
+    text-align: left;
+    line-height: 2;   /* the space between the lines */
+}
+/* .discription2{
+    clear: right;    /*"clear" is the oposite of "float"
+} */
+
+.end{
+    color: #EAF6F6;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Nerko One', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-me{
+    background-color: #ffffff;
+    padding-bottom: 40px;    
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 40px;
+    color: #11999E;
+}
+.footer-link{
+    padding: 5px;
+}
+hr{
+    border: dotted #b8bfbf 6px;
+    border-bottom: none;
+    width:5%;
+    margin: 100px auto 100px auto;
+}
